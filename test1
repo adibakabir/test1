@@ -1,1 +1,5 @@
+import math
 
+def magic_number(a):
+    new_a = abs(a) * math.pi
+    print(f"The magic number is {new_a:.3f}")
